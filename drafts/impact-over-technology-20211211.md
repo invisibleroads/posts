@@ -6,7 +6,7 @@ A lot of the agonizing was over the thought that I had spent 10+ years developin
 
 I decided that we can still re-use a lot of our legacy technology. Just because you have a computer does not mean you cannot still use a pen and paper notebook. Every technology has its advantages and disadvantages and there are cases where an ancient technology can be superior to a newfangled one.
 
-To return to the case of the new ASGI frameworks, I think their use is most appreciated when one wants to serve asynchronous protocols such as websockets and server sent events entirely within the same script without having to rely on external services like redis or custom nodejs proxies. And these asynchronous protocols are more needed in rapid interactive  applications like online games and immersive experiences. For the use case of a marketplace or report, the WSGI frameworks work perfectly fine.
+To return to the case of the new [ASGI frameworks](https://asgi.readthedocs.io), I think their use is most appreciated when one wants to serve asynchronous protocols such as websockets and server sent events entirely within the same script without having to rely on external services like redis or custom nodejs proxies. And these asynchronous protocols are more needed in rapid interactive  applications like online games and immersive experiences. For the use case of a marketplace or report, the WSGI frameworks work perfectly fine.
 
 We can focus on the traditional business metrics of users and revenue. There are a lot of proxies for measuring impact.
 
